@@ -12,5 +12,3 @@ function peopleWithAgeDrink(old) {
   }
   return result;
 }
-
-console.log(peopleWithAgeDrink(45));
