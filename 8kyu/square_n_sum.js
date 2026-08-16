@@ -1,9 +1,7 @@
-function squareSum(numbers){
-    let result = 0;
-    for (let i = 0; i < numbers.length; i++) {
-        result += numbers[i] * numbers[i];
-    }
-    return result;
+function squareSum(numbers) {
+  let result = 0;
+  for (let i = 0; i < numbers.length; i++) {
+    result += numbers[i] * numbers[i];
+  }
+  return result;
 }
-
-console.log(squareSum([2, 4]));
