@@ -1,5 +1,4 @@
 function areYouPlayingBanjo(name) {
-  name = "james";
   if (name[0] === "R" || name[0] === "r") {
     return name + " plays banjo";
   } else {
