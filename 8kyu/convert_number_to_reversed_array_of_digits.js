@@ -4,7 +4,5 @@ function digitize(n) {
   for (let i = 0; i < digits.length; i++) {
     digitsArray += digits[i];
   }
-  return (digitsArray.split("").reverse()).map(Number);
+  return digitsArray.split("").reverse().map(Number);
 }
-
-console.log(digitize(35231));
